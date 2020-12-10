@@ -1,0 +1,128 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+/*navbar styles */
+
+.navbar {
+  background-color: #D99379 !important;
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color:gold !important;
+}
+
+.dropdown-menu {
+  background-color:#A66151 !important;
+}
+
+@media (max-width: 600px) {
+  .carousel {
+  display: none;
+}
+
+}
+
+.carousel-caption {
+  background-color: rgb(0,0,0,0.5);
+  width: 40%;
+  margin: auto;
+}
+
+.fa-row
+{
+  background-color: #A66151;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  color: #ffff;
+}
+
+.fab, .fas, .far {
+  font-size: 60px;
+}
+
+.fab:hover, .fas:hover, .far:hover {
+  color: gold;
+  transform: scale(1.1);
+}
+
+.fab-link {
+  color: #ffffff;
+ 
+  
+}
+
+
+.fab-link:hover {
+  font-weight: bold;
+  color:gold;
+  text-decoration: none;
+}
+
+
+.footer-row {
+  background-color: #A66151;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  
+  
+}
+
+.footer-row a {
+  color: #ffffff;
+}
+
+.footer-row a:hover {
+  color: gold;
+  text-decoration: none;
+}
+
+.project-videos {
+  text-align: center;
+  padding: 20px 0px 20px 0px; /*top right bottom left*/
+}
+
+video {
+  width: 600px;
+  height; 400px;
+  object-fit: cover;
+}
+
+.gallery-row {
+  text-align: center;
+  position: relative;
+  padding-bottom: 20px;
+  
+}
+
+.cropped {
+  width: 200px;
+  height: 200px;
+clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+.cropped-1 {
+  object-fit: cover;
+  object-position: 90% 0;
+}
+.cropped-2 {
+  object-fit: cover;
+  object-position: 80% 0;
+}
+.cropped-3 {
+  object-fit: cover;
+  object-position: 45% 0;
+}
